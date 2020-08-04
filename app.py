@@ -9,15 +9,16 @@ import pyrebase
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
+# Populate this config dictionary for using firebase
 config = {
-    "apiKey": "AIzaSyB1LFY-km4LlHPQDs35hJCHLFp42Ba66VI",
-    "authDomain": "ml-gestures-app.firebaseapp.com",
-    "databaseURL": "https://ml-gestures-app.firebaseio.com",
-    "projectId": "ml-gestures-app",
-    "storageBucket": "ml-gestures-app.appspot.com",
-    "messagingSenderId": "708683473834",
-    "appId": "1:708683473834:web:81b955bcc957b7025181d3",
-    "measurementId": "G-3C0JPC4XYH"
+    "apiKey": "",
+    "authDomain": ",
+    "databaseURL": "",
+    "projectId": "",
+    "storageBucket": "",
+    "messagingSenderId": "",
+    "appId": "",
+    "measurementId": ""
 }
 
 
