@@ -10,7 +10,11 @@ To start the flask server run file app.py or use deployed api : ~~ec2-184-72-134
 Body for post request should contain a json of following format : 
 
 {
+
   "images" : list of urls of images,
+  
   "labels" : list of labels of urls provided (0/1/2/3),
+  
   "epochs" : No. of epochs to be trained for
+  
 }
