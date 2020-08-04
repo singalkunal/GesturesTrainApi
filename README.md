@@ -21,3 +21,5 @@ Body for post request should contain a json of following format :
 
 
 Trained model will be uploaded to firebase storage and its url will be sent as response which can be used to download the model.
+
+Note: Populate the config dictionary in app.py if you wanna use firebase storage.
