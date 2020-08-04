@@ -18,3 +18,6 @@ Body for post request should contain a json of following format :
   "epochs" : No. of epochs to be trained for
   
 }
+
+
+Trained model will be uploaded to firebase storage and its url will be sent as response which can be used to download the model.
